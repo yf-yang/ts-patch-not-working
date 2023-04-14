@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": "src",
+    "outDir": "build",
+    "paths": {
+      "@": ["."],
+      "@/*": ["*"]
+    },
+    "emitDeclarationOnly": true,
+    "composite": true,
+    "plugins": [{ "transform": "typescript-transform-paths" }]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
